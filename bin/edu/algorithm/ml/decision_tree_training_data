@@ -1,0 +1,7 @@
+WRITEABLE UPDATED SIZE CLASS
+yes no small text
+yes yes large text
+no yes med text
+no no med executable
+yes no large executable
+no no large executable
