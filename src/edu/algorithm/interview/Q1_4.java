@@ -1,6 +1,5 @@
 package edu.algorithm.interview;
 
-import java.util.Queue;
 
 public class Q1_4
 {
@@ -87,7 +86,7 @@ public class Q1_4
         String sent = "Mr   John Smith    ";
         System.arraycopy(sent.toCharArray(), 0, str, 0, sent.length());
         
-        replace(str, 13);
+        replaceSpaces(str, 13);
         System.out.println(str);
     }
 }

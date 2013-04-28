@@ -15,7 +15,7 @@ public class Q3_2
     
     public void push(Object obj)
     {
-        if (s1.isEmpty() || (Integer) obj < (Integer) s1.top())
+        if (s1.isEmpty() || (Integer) obj <= (Integer) s1.top())
         {
             s1.push(obj);
         }
